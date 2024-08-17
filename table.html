@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table</title>
+    <style>
+        table {
+            background-color: skyblue;
+            /* width: 100%; */
+            border-collapse: collapse;
+            text-align: center;
+            color: #d81616;
+        }
+        td, th {
+            border: 1px solid #414141;
+            padding: 10px;
+        }
+        tr:nth-child(even) {
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+<table style="width: 100%;">
+    <colgroup>
+        <col span="2" style="background-color: blueviolet;" />
+    </colgroup>
+    <tr>
+        <th>Student Name</th>
+        <th>Date Of Birth</th>
+        <th>Country</th>
+    </tr>
+    <tr>
+        <td>Ashish</td>
+        <td>29-09-2005</td>
+        <td>India</td>
+    </tr>
+    <tr>
+        <td>Sam</th>
+        <td>26-05-2004</td>
+        <td>USA</th>
+    </tr>
+    <tr>
+        <td>Ryan</td>
+        <td>03-08-2005</td>
+        <td>Australia</td>
+    </tr>
+</table>
+
+<table>
+    <tr>
+        <th>Student Name</th>
+        <td>Ashish</td>
+        <td>Sam</td>
+    </tr>
+    <tr>
+        <th>Country</th>
+        <td>India</td>
+        <td>USA</td>    
+    </tr>
+
+</table>
+</html>

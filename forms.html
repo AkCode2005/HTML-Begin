@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        body {
+            background-color: #414141;
+            color: black;
+        }
+        form {
+            width: 100%;
+            text-align: center;
+            background-color: lightgreen;
+        }
+    </style>
+</head>
+<body>
+    <h1>Coding Language Course</h1>
+    <form action="" method="GET" accept-charset="UTF-8" autocomplete="off" enctype="text/plain" >
+        <label for="fname">First Name</label> <br />
+        <input type="text"  placeholder="First Name" name="" id="fname"> <br />
+        <label for="lname">Last Name</label> <br />
+        <input type="text"  placeholder="Last Name" name="" id="lname">
+        <br />
+        <label for=""> Enter Your Pasword</label> 
+        <br />
+        <input type="password" name="" id="">
+        <br />
+        <label for="">Enter your Date of Birth</label>
+        <br />
+        <input type="date" name="" id="">
+        <br />
+        <label for="">Enter Your Mail Id</label>
+        <br />
+        <input type="email" name="" id="">
+        <br />
+        <label for="">Please select you Language</label>
+        <br />
+        <select name="Coding Language" id="" multiple>
+            <option value="c++">c++</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+        </select>
+        <br />
+        <label for="">Alternate Way to Choose</label>
+        <br />
+        <input list="Coding Language" name="Coding Language">
+        <br />
+        <datalist id="Coding Language" multiple>
+            <option value="c++">c++</option>
+            <option value="Java">Java</option>
+            <option value="Python">Python</option>
+        </datalist>
+        <br />
+        <input type="reset" value="reset">
+        <button type="submit">Submit Deatils</button>
+
+
+
+    </form>
+</body>
+</html>
